@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, button {
+  padding: 10px 20px; /* Adjust padding for buttons */
+  margin: 1rem; /* Adjust margin for buttons */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.signin, .signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  margin: 10rem auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: pink;
+}
+
+/* Remove .signin button and .signup button selectors */
+.navbar button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+
+}
